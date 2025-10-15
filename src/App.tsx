@@ -35,22 +35,18 @@ const theme = createTheme({
   palette: {
     primary: {
       main: '#1976d2',
-      light: '#4791db',
-      dark: '#115293',
     },
     secondary: {
       main: '#dc004e',
     },
     background: {
       default: '#f5f5f5',
-      paper: '#ffffff',
     },
   },
 });
 
 function App() {
   const [selectedDoctor, setSelectedDoctor] = useState<Doctor | null>(null);
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
   return (
     <ThemeProvider theme={theme}>
