@@ -8,7 +8,6 @@ import {
   Box,
   Typography,
   Paper,
-  useMediaQuery
 } from '@mui/material';
 import DoctorList from './components/DoctorList';
 import PersonIcon from '@mui/icons-material/Person';
